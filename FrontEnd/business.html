@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Bank Simulator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="img/bank-logo.png">
+	
+	<link rel="stylesheet" href="CSS/bankCSS.css">
+	<link rel="stylesheet" href="CSS/gridCSS.css">
+	<link rel="stylesheet" href="CSS/business.css">
+
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<li><a href="personal.html">Personal</a></li>
+			<li><a href="business.html" style="text-decoration:underline">Business</a></li>
+		</nav>
+		<h3><img src="img/bank-logo.png" alt="logo-homepage" class="bank-logo">Bank Simulator for Business</h3>
+		<nav>
+			<li><a href="checking.html">Checking</a></li>
+			<li><a href="saving.html">Saving</a></li>
+			<li><a href="investment.html">Investment</a></li>
+			<li><a href="support.html">Support</a></li>
+
+		</nav>
+	</header>
+
+<div class="row">
+  <div id="img" class="column">
+    <!-- You can insert an image like a business team or finance graphic here -->
+    <img src="img/business.avif" alt="Business banking illustration">
+  </div>
+
+  <div id="ads" class="column">
+    <h3>Business Bonus</h3>
+    <h1>$1000</h1>
+    <p>New business customers</p>
+    <p>Get a $1000 bonus when you open a Business Checking account and meet qualifying deposit activity.</p>
+    <p><a href="checking.html" id="fbutton">Start Earning</a></p>
+  </div>
+
+  <div id="login" class="column">
+    <h2>Business Login</h2>
+    <form>
+      <fieldset>
+        <legend>Business ID:</legend>
+        <input type="text" name="businessId" id="businessId" placeholder="Business ID" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Access Code:</legend>
+        <input type="password" name="accessCode" id="accessCode" placeholder="Access Code" required>
+      </fieldset>
+
+      <button type="button" onclick="businessLogin()">Login</button>
+      <script src="JS/businessLogin.js"></script>
+    </form>
+    <p><a href="business-forgot.html">Forgot Business ID or Access Code?</a></p>
+    <p><a href="business-signup.html">Register your business</a></p>
+  </div>
+</div>
+
+
+	<div class="business-content">
+	<section class="intro">
+		<h2>Welcome to Business Banking</h2>
+		<p>
+		Our Business Banking services are designed to support businesses of all sizes—from startups and small enterprises to large corporations. Whether you’re managing day-to-day expenses or planning for long-term growth, our simulator helps you explore and manage your finances effectively.
+		</p>
+	</section>
+
+	<section class="services">
+		<h3>Business Account Features</h3>
+		<ul>
+		<li><strong>Business Checking:</strong> Simulate income and expenses for operational efficiency.</li>
+		<li><strong>Business Savings:</strong> Track profits and set aside funds for taxes, growth, or emergencies.</li>
+		<li><strong>Investment Options:</strong> Explore potential investment growth based on your simulated cash flow.</li>
+		<li><strong>Loan Simulations:</strong> Estimate loan terms, interest, and monthly payments for expansion plans.</li>
+		</ul>
+	</section>
+
+	<section class="benefits">
+		<h3>Why Use Our Business Simulator?</h3>
+		<p>
+		Our tool allows you to:
+		</p>
+		<ul>
+		<li>Test financial strategies risk-free.</li>
+		<li>Understand business cash flow patterns.</li>
+		<li>Prepare for business growth and investment planning.</li>
+		<li>Gain insights into real-world banking tools and terms.</li>
+		</ul>
+	</section>
+
+	<section class="call-to-action">
+		<h3>Get Started Today</h3>
+		<p>
+		Ready to take control of your business finances? Use the navigation above to open a simulated business checking or savings account, explore investment opportunities, or get support.
+		</p>
+		<a href="checking.html" class="button">Simulate a Business Account</a>
+	</section>
+	</div>
+
+	<footer>
+		<small><i>Copyright &#169; 2023 Ngoc Nhan Huynh</i></small>
+	</footer>
+</body>
+
+</html>

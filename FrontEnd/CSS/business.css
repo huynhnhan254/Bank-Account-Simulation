@@ -1,0 +1,72 @@
+/* Business Page Styles */
+
+.business-content {
+    max-width: 1000px;
+    margin: 3% auto;
+    padding: 2%;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.business-content section {
+    margin-bottom: 30px;
+}
+
+.business-content h2,
+.business-content h3 {
+    color: #0A3981;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.business-content p {
+    font-size: 1em;
+    color: #222;
+    line-height: 1.6;
+}
+
+.business-content ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.business-content li {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 0.95em;
+}
+
+.business-content .button {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #0A3981;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Geneva, Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.business-content .button:hover {
+    background-color: #1F509A;
+}
+
+/* Optional: improve responsiveness on small screens */
+@media screen and (max-width: 600px) {
+    .business-content {
+        padding: 5%;
+    }
+
+    .business-content h2,
+    .business-content h3 {
+        font-size: 1.2em;
+    }
+
+    .business-content .button {
+        width: 100%;
+        text-align: center;
+    }
+}

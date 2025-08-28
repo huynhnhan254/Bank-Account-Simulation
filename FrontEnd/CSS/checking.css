@@ -1,0 +1,84 @@
+.benefits-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 15px 20px; /* space between columns and rows */
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.benefits-table td {
+  border: 2px solid #0A3981;
+  padding: 20px;
+  vertical-align: top;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(10, 57, 129, 0.2);
+}
+
+.benefits-table h4 {
+  color: #0A3981;
+  margin-bottom: 10px;
+}
+
+.benefits-table p {
+  color: #333;
+  font-size: 0.95em;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.promo-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(10, 57, 129, 0.1);
+  font-family: Verdana, Arial, sans-serif;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.promo-text {
+  flex: 1 1 45%;
+  color: #222;
+}
+
+.promo-text h2 {
+  color: #0A3981;
+  margin-bottom: 15px;
+}
+
+.promo-text p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #45a049;
+}
+
+.promo-image {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.promo-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

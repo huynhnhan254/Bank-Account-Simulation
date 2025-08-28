@@ -1,0 +1,198 @@
+/* Ngoc Nhan Huynh */
+/* CSS Reset */
+
+body, header, nav, main, footer, img, h1, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+   }
+
+/* Style rules for header body and images */
+
+body {
+    background-color: #FFFFFF;
+    }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for navigation area */
+
+nav {
+    background-color: #FFFFFF;
+    width: 100%;
+    }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+     }
+
+nav li {
+    display: inline-block;
+    font-size: 0.75em;
+    font-family: Geneva, Arial, sans-serif;
+    }
+
+nav li a {
+    display: block;
+    color: #000000;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    transition: border-bottom 0.3s ease-in-out;
+    }
+
+nav li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: #0A3981;
+    padding-bottom: 2px;
+}
+
+/* Style rules for main content */
+
+main {
+    padding: 2%;
+    font-family: Verdana, Arial, sans-serif;
+   }
+
+main p {
+    font-size: 1.25em;
+    }
+
+main h3 {
+    padding-top: 2%;
+    }
+
+main ul {
+    list-style-type: square;
+     }
+
+/* Style rules for login */
+.row{
+    display: flex;
+    background-color: #0A3981;
+}
+
+.column{
+    flex: 1;
+}
+
+#img{
+    flex: 40%;
+
+}
+
+#ads {
+    flex: 30%;
+    padding: 2%;
+    color:#FFFFFF;
+}
+
+#login{
+    flex: 30%;
+    margin: 2% 15%;
+    border: #000000;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#login h2{
+    margin: 5px;
+}
+
+#login fieldset {
+    border: none;
+    padding: 0;
+    margin: 5% 1%;
+    display: flex;
+}
+
+#login legend{
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+#login input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+}
+
+#login p {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+#login button {
+    background-color: #0A3981;
+    color: #FFFFFF;
+    display: block;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+#login button:hover {
+    background-color: #1F509A;
+}
+
+#fbutton {
+    text-decoration: none;
+    border-radius: 2%;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #4CAF50;
+    padding: 5px;
+}
+
+#fbutton:hover {
+    background-color: #45a049;
+}
+/* Style rules for class and id selectors */
+
+.link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    }
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.partners{
+	color: #4d3319;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: Geneva, Arial, sans-serif;
+}
+
+#contact {
+    text-align: center;
+}
+
+/* Style rules for footer content */
+
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #0A3981;
+    color: #f6eee4;
+    padding: 1% 0;
+   }
+
+footer a {
+    color: #f6eee4;
+    text-decoration: none;
+}
+

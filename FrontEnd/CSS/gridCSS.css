@@ -1,0 +1,77 @@
+/* Ngoc Nhan Huynh */
+
+.bank-logo {
+    height: 50px;
+    width: 50px;
+    margin: 0 15px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    padding: 20px;
+    margin: 0 50px;
+}
+
+.grid-container > div {
+    background-color: #FFFFFF;
+    padding: 20px;
+    color: #0A3981;
+    font-size: 20px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+
+.grid-container > div > table th {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    }
+
+.header-logo {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.grid-container > div > table td {
+    padding-top: 10px;
+}
+
+#cta-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+
+#cta-button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .row, .grid-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; /* Stack columns vertically on small screens */
+    }
+}

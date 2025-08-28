@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Bank Simulator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	<link rel="icon" type="image/png" href="img/bank-logo.png">
+	
+	<link rel="stylesheet" href="CSS/bankCSS.css">
+	<link rel="stylesheet" href="CSS/gridCSS.css">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<li><a href="personal.html" style="text-decoration:underline">Personal</a></li>
+			<li><a href="business.html">Business</a></li>
+		</nav>
+		<h3><img src="img/bank-logo.png" alt="logo-homepage" class="bank-logo">Bank Simulator</h3>
+		<nav>
+			<li><a href="checking.html">Checking</a></li>
+			<li><a href="saving.html">Saving</a></li>
+			<li><a href="investment.html">Investment</a></li>
+			<li><a href="support.html">Support</a></li>
+
+		</nav>
+	</header>
+
+
+
+	<div class="row">
+		<div id="img" class="column">
+			
+		</div>
+		<div id="ads" class="column">
+			<h3>Enjoy</h3>
+			<h1 font-size="6">$500</h1>
+			<p font-size="10px">New checking customers</p>
+			<p>Open a Checking Account with qualifying activities</p>
+			<p><a href="checking.html" id="fbutton">Open Account</a></p>
+		</div>
+
+		<div id="login" class="column">
+			<h2>Welcome</h2>
+			<form>
+				<fieldset>
+					<legend>Username:</legend>
+					<input type="text" name="username" id="username" placeholder="User ID" required>
+				</fieldset>
+
+				<fieldset>
+					<legend>Password:</legend>
+					<input type="password" name="password" id="password" placeholder="Password" required>
+				</fieldset>
+
+				<button type="button" onclick="login()">Login</button>
+				<script src="JS/login.js"></script>
+			</form>
+			<p><a href="forgetpass.html">Forgot username/password?</a></p>
+			<p><a href="signup.html">Sign Up now!</a></p>
+		</div>
+	</div>
+
+	<div>
+		<h2 style="text-align: center; font-size: 35px">Choose what's right for you</h2>
+		<div class="grid-container">
+			<div>
+				<table>
+					<tr>
+						<th>Checking<img src="img/checking.jpg" alt="Credit Cards logo" class="header-logo">
+						</th>
+					</tr>
+					<tbody>
+						<tr>
+							<td>A checking account is designed for your everyday banking needs:
+								<ul>
+									<li>Easy access to your funds</li>
+									<li>Secure payment options</li>
+									<li>Manage your money convenient</li>
+								</ul>	
+								
+							</td>
+						</tr>
+					</tbody>
+					
+				</table>
+				<p><a href="checking.html" id="cta-button">Open Checking Account</a></p>
+			</div>
+
+			<div>
+				<table>
+					<tr>
+						<th>Saving Account<img src="img/saving.jpg" alt="Credit Cards logo" class="header-logo">
+						</th>
+					</tr>
+					<tbody>
+						<tr>
+							<td>Maximum saving with minimum hassle. 
+								<p>No monthly fee.</p>
+								<p>No monthly balance requirements.</p>
+								<p>No minimum opening deposit</p>
+								
+							</td>
+							
+						</tr>
+						
+					</tbody>
+				</table>
+				<p><a href="saving.html" id="cta-button">Open Saving Account</a></p>
+			</div>
+
+			<div>
+				<table>
+					<tr>
+						<th>Credit Cards<img src="img/creditcards.jpg" alt="Credit Cards logo" class="header-logo">
+						</th>
+					</tr>
+					<tbody>
+						<tr>
+							<td>
+								<h3>Earn a $250 bonus</h3>
+								<p>Get rewarded when you sign up for a new credit card. Take advantage of our exclusive bonus offer.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<p><a href="creditcards.html" id="cta-button">Apply for Credit Card</a></p>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<small><i>Copyright &#169; 2023 Ngoc Nhan Huynh</i></small>
+	</footer>
+
+
+
+</body>
+
+</html>
